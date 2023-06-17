@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 246);
+}
+
+
+
+
+.navBar{    
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: rgb(245, 245, 246);
+    height: 30px;
+    align-items: center;
+}
+
+.navBar img{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navBar nav a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    zoom: 65%;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(35, 34, 34);
+}
+
+
+
+
+
+.macListjedan{
+    zoom: 60%;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.learnMore{
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+}
+
+.learnMore ul li{
+    zoom: 57%;
+    text-decoration: none;
+    list-style: none;
+}
+
+.learnMore ul a center{
+    zoom: 60%;
+    color: rgb(45, 45, 253);
+    text-decoration: none;
+}
+
+.learnMore ul a{
+    text-decoration: none;
+}
+
+
+
+
+.macListDva{
+    zoom: 60.6%;
+}
+
+
+
+
+
+
+.macListTri{
+    background-color: black;
+    border-bottom: 3px white solid;
+}
+
+.macListTri img{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    width: 1080px;
+}
+
+
+
+.macInteractiveTri{
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black ;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.macInteractiveTri button{
+    background-color: rgb(34, 135, 202);
+    border: 2px solid rgb(34, 135, 202);
+    border-radius: 15px;
+    color: white;
+    margin-right: 10px;
+    width: 50px;
+    height: 30px;
+}
+
+.macInteractiveTri a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 10px;
+}
+
+
+
+center h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.laptopOrDesktop{
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.laptopOrDesktop h3{
+    font-weight: 300;
+    zoom: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.macListPet{
+    display: flex;
+    background-color: rgb(250, 250, 250);
+}
+
+.macListPet img{
+    zoom: 60%;
+}
+
+
+.macListPetDva{
+    display: flex;
+    background-color: rgb(250, 250, 250);
+    justify-content: center;
+}
+
+.macListPetDva img{
+    zoom: 100%;
+}

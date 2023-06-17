@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(247, 248, 252);
+}
+
+
+
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: rgb(61, 61, 61);
+    height: 30px;
+    align-items: center;
+}
+
+.navBar img{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navBar nav a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    zoom: 65%;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+.logInBar{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logInBar h3{
+    margin-left: 250px;
+}
+
+.logInBar ul{
+    margin-right: 250px;
+}
+
+.logInBar ul a{
+    text-decoration: none;
+    color: grey;
+    margin-left: 10px;
+    zoom: 50%;
+}
+
+.signInListJedan{
+    display: flex;
+    justify-content: center ;
+}
+
+.signInListJedan img{
+    zoom: 50%;  
+}
+
+
+center a button{
+    background-color: blue;
+    border: 1px blue solid;
+    color: white;
+    border-radius: 15px;
+}

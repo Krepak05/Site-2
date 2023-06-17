@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+
+
+
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    height: 30px;
+    align-items: center;
+}
+
+.navBar img{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navBar nav a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    zoom: 65%;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+
+
+.logInBar{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(30, 30, 30);
+    height: 40px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logInBar h3{
+    margin-left: 250px;
+    color: white;
+}
+
+.logInBar ul{
+    margin-right: 250px;
+}
+
+.logInBar ul a{
+    text-decoration: none;
+    color: grey;
+    margin-left: 10px;
+    zoom: 50%;
+}
+
+.signInListJedan{
+    display: flex;
+    justify-content: center ;
+}
+
+.signInListJedan img{
+    zoom: 25%;  
+}
+
+
+
+
+
+
+.emailInput{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: 1px grey solid;
+    border-radius: 15px;
+    width: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 400px;
+    align-items: center;
+    color: grey;
+}
+
+
+.emailInput button{
+    background-color: whitesmoke;
+    color: grey;
+    font-weight: bolder;
+    border: 1px grey solid;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.emailInput input{
+    border: whitesmoke 1px solid;
+    background-color: whitesmoke;
+}
+
+.emailInput h3{
+    font-weight: 200;
+    zoom: 80%;
+}
+
+
+
+
+
+.passWordInput{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: 1px grey solid;
+    border-radius: 15px;
+    width: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 400px;
+    align-items: center;
+    color: grey;
+    margin-top: 10px;
+}
+.passWordInput button{
+    background-color: whitesmoke;
+    color: grey;
+    font-weight: bolder;
+    border: 1px grey solid;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.passWordInput input{
+    border: whitesmoke 1px solid;
+    background-color: whitesmoke;
+}
+
+.passWordInput h3{
+    font-weight: 200;
+    zoom: 80%;
+}
+
+
+.rememberMe{
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    zoom: 70%;
+}
+
+
+center a{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    zoom: 80%;
+}

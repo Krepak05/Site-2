@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 246);
+}
+
+
+
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: rgb(245, 245, 246);
+    height: 30px;
+    align-items: center;
+}
+
+.navBar img{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navBar nav a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    zoom: 65%;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(35, 34, 34);
+}
+
+
+
+
+
+
+
+
+
+.prviTekst {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.prviTeksttekst {
+    zoom: 250%;
+    margin-top: 35px;
+}
+
+.prviTekst ul li{
+    list-style: none;
+    color: rgb(68, 68, 68);
+    font-weight: bolder;
+}
+
+.prviTekst ul li h3{
+    display: inline;
+    color: black;
+}
+
+.helpmanagerdiv{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    margin-top: 95px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.helpmanagerdiv ul li{
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    zoom: 75%;
+    color: black;
+}
+
+.helpmanagerdiv ul a{
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    zoom: 75%;
+    color: rgb(30, 0, 255);
+    text-decoration: none;
+}
+
+.helpmanagerdiv img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100% ;
+    margin-right: 0;
+    padding-right: 0;
+    background-color: black;
+}
+
+
+
+
+
+
+
+.productsListJedan{
+    zoom: 55%;
+    margin-left: 350px;
+    margin-top: 100px;
+    background-color: aliceblue;
+    align-self: center;
+}
+
+
+
+
+.shopTekst{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 50px;
+    zoom: 150%;
+}
+
+.shopTekst ul li{
+    display: inline;
+    zoom: 115%;
+    color: grey;
+    font-weight: bold;
+}
+
+.shopTekst ul h3{
+    display: inline;
+    margin-top: 100px;
+}
+
+
+
+
+.applewatch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.applewatch ul h3{
+    color: grey;
+}
+
+.applewatch ul h1{
+    font-weight: bold;
+}
+
+.applewatch ul h2{
+    font-weight: 500;
+}
+
+.applewatchIMG{
+    zoom: 65%;
+    border-radius: 25px;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    transition-delay: 2s;
+}
+
+.applewatchIMG:hover{
+    zoom: 70%;
+    transition-delay: 10s;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    transition: 1s;
+    transition-duration: 4s;
+    border-radius: 45px;
+}
+
+
+
+.applewatch ul button{
+    border-radius: 15px;
+    border: solid rgb(220, 220, 220) 2px;
+    background-color: rgb(220, 220, 220);
+}
+
+
+
+
+
+
+
+.shopTekstDva{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    justify-content: left;
+    margin-top: 50px;
+    zoom: 150%;
+}
+
+.shopTekstDva ul li{
+    display: inline;
+    zoom: 115%;
+    color: grey;
+    font-weight: bold;
+}
+
+.shopTekstDva ul h3{
+    display: inline;
+    margin-top: 100px;
+}
+
+
+
+
+.productsDva{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.productsDva img{
+    height:450px;
+    width: 375px;
+    border-radius: 40px;
+    zoom: 95%;
+}
+
+.paragraf{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+    justify-content: center;
+    align-self: center;
+    zoom: 55%;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 200px;
+}
+
+
+
+
+.shopTekstTri{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    justify-content: left;
+    margin-top: 50px;
+    zoom: 150%;
+}
+.shopTekstTri ul h3{
+    display: inline;
+    margin-top: 100px;
+    margin-left: 75px;
+    zoom: 90%;
+    color: rgb(0, 0, 0);
+}
+
+.qucikLinks{
+    display: flex;
+    justify-content: left;
+    margin-left: 160px;
+}
+
+.qucikLinks button{
+    margin-right: 10px;
+    border-radius: 15px;
+    border: solid rgb(220, 220, 220) 2px;
+    background-color: rgb(220, 220, 220);
+}
+
+.qucikLinks button a{
+    text-decoration: none;
+    color: black;
+}
+
+

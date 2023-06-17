@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 246);
+}
+
+
+
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: rgb(245, 245, 246);
+    height: 30px;
+    align-items: center;
+}
+
+.navBar img{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navBar nav a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    zoom: 65%;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(35, 34, 34);
+}
+
+.airPodsListJedan{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.airPodsListJedan img{
+    zoom: 65%;
+}
+
+
+
+
+
+.learnMore{
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 246);
+}
+
+.learnMore ul li{
+    zoom: 57%;
+    text-decoration: none;
+    list-style: none;
+}
+
+.learnMore ul a center{
+    zoom: 60%;
+    color: blue;
+    text-decoration: none;
+}
+
+.learnMore ul a{
+    text-decoration: none;
+}
+
+
+
+.airPodsListDva{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 700px;
+    background-color: rgb(245, 245, 246);
+    border-radius: 25px;
+    margin-left: 200px;
+}
+.airPodsListDva img{
+    border-radius: 35px;
+}

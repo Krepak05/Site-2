@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 246);
+}
+
+
+
+
+.navBar{    
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: rgb(245, 245, 246);
+    height: 30px;
+    align-items: center;
+}
+
+.navBar img{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navBar nav a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    zoom: 65%;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(35, 34, 34);
+}
+
+
+.iPadListjedan{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.iPadListjedan img{
+    zoom: 60%;
+}
+
+
+
+.learnMore{
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.learnMore ul li{
+    zoom: 57%;
+    text-decoration: none;
+    list-style: none;
+}
+
+.learnMore ul a center{
+    zoom: 60%;
+    color: rgb(45, 45, 253);
+    text-decoration: none;
+}
+
+.learnMore ul a{
+    text-decoration: none;
+}
+
+
+
+
+.iPadListDva{
+    display: flex;
+    justify-content: center;
+}
+
+.iPadListDva center img{
+    zoom: 60%;
+}
